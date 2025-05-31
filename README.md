@@ -1,7 +1,6 @@
-This project is organised into two separate repositories:
+# README
 
-A PHP repo (php-oop-exercise) for implementing the core order-processing domain model using object‑oriented principles.
+I made the assumption this was two separate repos due to their own distinct setup, dependencies, and execution contexts outlined in the two seperate tasks. Because of this you will find:
 
-A Vue 3 repo (vue-order-ui) for building a reactive frontend.
-
-I kept them separated due to their own distinct setup, dependencies, and execution contexts. The Vue repo also has its own JS copy of the domain classes. I decided this was the cleanest and most maintainable approach.
+* **php-oop-exercise**: A PHP repo for implementing the core order-processing model using object-oriented principles.
+* **vue-order-ui**: A Vue 3 repo for building a reactive frontend (with its own JS copy of the domain classes provided in the task).
